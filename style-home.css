@@ -1,0 +1,113 @@
+header{
+    background-color: #bbbbbb;
+    padding: 20px;
+}
+
+.caixa{
+    text-align: center;
+    width: 940px;
+    margin: 0 auto;
+}
+
+div h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: lighter;
+    text-decoration: underline;
+
+}
+
+.banner{
+    position: relative;
+    padding: 40px;
+}
+
+#banner{
+    width: 50%;
+    border: 2px solid #000000 ;
+}
+
+.principal{
+    width: 50%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding-left: 30px;
+}
+
+.principal h2, h3{
+    font-size: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+.titulo-principal{
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+#misssao {
+    font-size: 20px;
+} 
+em strong{
+    color: #ff0000; /*cor em hexadecimal*/
+}
+
+.itens {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.beneficios{
+    position: relative;
+    padding: 40px;
+    height: 340px;
+}
+
+.beneficios-principal{
+    position: absolute;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;/*faz com que o bloqueio se limite ao conteudo*/
+    vertical-align: top;
+    width: 20%;
+    margin-right: 35%;
+}
+
+#imagembeneficios{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    border: 2px solid #000000 ;
+}
+
+footer{
+    text-align: center;
+    background: url("bg.jpg") ;
+    padding: 40px 0;
+}
+ 
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+    
+}
+
+@media screen and (max-width: 480px) {
+    #mensagem-caixa{
+        background: rebeccapurple;
+    }
+}
